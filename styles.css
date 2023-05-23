@@ -1,0 +1,95 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set Georgian flag background */
+  body {
+    background-image: url('georgia-flag.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+  }
+  
+  /* Set red and white colors for text */
+  body, p {
+    color: black;
+  }
+  h1{
+    color: white;
+  }
+  .header{
+    color: white;
+  }
+  /* Style the header */
+  header {
+    background-color: #D0112B;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  /* Style the header content */
+  .header-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Style the main content */
+  main {
+    margin: 40px;
+  }
+  
+  /* Style each section */
+  section {
+    margin-bottom: 60px;
+  }
+  
+  /* Style section headings */
+  h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  
+  /* Style section images */
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style section paragraphs */
+  p {
+    margin-bottom: 10px;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #D0112B;
+    padding: 40px;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Style the footer content */
+  .footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+    color: white;
+  }
+  
+  /* Add a hover effect on images */
+  img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  .footerdav{
+    color: white;
+    font-size: 256%;
+  }
+  .footerniko{
+    color: white;
+  }
